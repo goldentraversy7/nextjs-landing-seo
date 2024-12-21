@@ -7,7 +7,7 @@ import PriceSection from "@/components/Price"
 import ReviewSection from "@/components/Review"
 import Welcome from "@/components/welcome"
 
-const IndexPage = () => {
+export default function IndexPage() {
   return (
     <section className="flex w-full flex-col ">
       <Welcome />
@@ -19,5 +19,3 @@ const IndexPage = () => {
     </section>
   )
 }
-
-export default IndexPage
